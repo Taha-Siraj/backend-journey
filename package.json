@@ -4,13 +4,15 @@
   "description": "This is my First Backend for my Jounrney",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
-  "main": "cls && node Server.mjs",
+  "type": "module",
+  "main": "cls && node Server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node Server.mjs"
+    "start": "node Server.js",
+    "dev": "nodemon Server.js"
   },
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^5.1.0",
     "geoip-lite": "^1.4.10"
   }
