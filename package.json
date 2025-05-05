@@ -12,8 +12,10 @@
     "dev": "nodemon Server.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
-    "geoip-lite": "^1.4.10"
+    "geoip-lite": "^1.4.10",
+    "multer": "^1.4.5-lts.2"
   }
 }
